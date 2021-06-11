@@ -1,0 +1,36 @@
+.card {
+	margin: 40px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 6px 18px -9px rgba(0, 0, 0.75);
+	transition: transform 100ms ease-in;
+	cursor: pointer;
+	display: flex;
+}
+
+.card:first-child {
+	margin-top: 60px;
+}
+
+.card:last-child {
+	margin-bottom: 80px;
+}
+
+.card:hover {
+	transform: scale(1.01);
+}
+
+.card > img {
+	max-width: 400px;
+}
+
+.card__info {
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.card__info > h4 {
+	font-size: 14px;
+	font-weight: 300;
+	margin: 8px 0 8px;
+}
