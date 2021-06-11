@@ -34,3 +34,14 @@
 	font-weight: 300;
 	margin: 8px 0 8px;
 }
+
+@media only screen and (max-width: 768px) {
+	.card {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.card > img {
+		min-width: 100%;
+	}
+}
